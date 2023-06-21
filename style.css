@@ -1,0 +1,40 @@
+header {
+    background-color: rgb(22, 22, 85);
+}
+header h1 {
+    font-size: 52px;
+    color: white;
+    text-align: center;
+    padding-top: 20px
+}
+header nav {
+    display: flex;
+    justify-content: center;
+}
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* media query for larger screens */
+@media all and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    header h1 {
+        margin: 14px 0;
+        padding-top: 0;
+    }
+    header nav {
+        margin-top: 15px;
+    }
+}
